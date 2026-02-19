@@ -1,0 +1,106 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #111827;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #111827;
+}
+
+.project-card, .contact-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.project-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #111827;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.project-card button:hover {
+    background: #1f2937;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    margin-bottom: 20px;
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #111827;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+    font-size: 14px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;   /* makes it circle */
+    border: 4px solid #333;
+}
