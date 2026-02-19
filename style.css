@@ -106,10 +106,11 @@ footer {
 
 }
 .calculator-frame{
-    width: 100%;
+    width: 95%;
     max-width: 400px;
-    height: 600px;
+    height: 80vh;
     border: none;
     display: block;
-    margin: 20px auto; /* centers horizontally */
+    margin: 20px auto;
 }
+
