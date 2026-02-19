@@ -103,4 +103,13 @@ footer {
     object-fit: cover;
     border-radius: 50%;   /* makes it circle */
     border: 4px solid #333;
+
+}
+.calculator-frame{
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    border: none;
+    display: block;
+    margin: 20px auto; /* centers horizontally */
 }
