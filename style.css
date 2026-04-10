@@ -113,4 +113,34 @@ footer {
     display: block;
     margin: 20px auto;
 }
+#certificates {
+    padding: 40px;
+    text-align: center;
+}
+
+.certificates-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.certificate-card {
+    width: 250px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.certificate-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.certificate-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
 
